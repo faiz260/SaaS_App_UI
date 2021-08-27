@@ -1,0 +1,122 @@
+.services {
+  height: 40rem;
+  background-image: url("../../assets/wave2.svg");
+  background-repeat: no-repeat;
+  background-position: bottom;
+  padding: 0 2rem;
+  display: flex;
+}
+.service_title {
+  border: 1px solid;
+  font-size: 2rem;
+  width: 26rem;
+  color: #171347;
+  padding: 2rem 0;
+}
+.service_left {
+  border: 1px solid;
+}
+.service_desc {
+  padding-top: 1rem;
+  line-height: 1.8rem;
+  width: 26rem;
+  color: #718096;
+}
+.service_desc2 {
+  padding-top: 1rem;
+  line-height: 1.5rem;
+  width: 28rem;
+  color: #718096;
+  font-size: 0.85rem;
+}
+.service_left > div {
+  width: 18rem;
+  margin-top: 1.2rem;
+}
+.about_btn {
+  width: 8rem;
+  height: 3rem;
+  border-radius: 0.3rem;
+  font-size: 1.1rem;
+  border: 0.1px solid white;
+  margin-right: 0.5rem;
+  cursor: pointer;
+  background-color: #0033cc;
+  color: white;
+  margin: 1rem 0;
+}
+
+@media (max-width: 979px) {
+  .services {
+    flex-direction: column;
+    height: 60rem;
+    padding: 0 6rem;
+  }
+  .home_right {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .service_title {
+    width: 100%;
+    padding-top: 3rem;
+  }
+  .service_desc {
+    width: 100%;
+  }
+  .service_desc2 {
+    width: 100%;
+  }
+}
+@media (max-width: 767px) {
+  .services {
+    padding: 0 2rem;
+  }
+  .about_btn {
+    width: 7rem;
+    height: 3rem;
+  }
+  .service_title {
+    font-size: 2.5rem;
+    width: 100%;
+  }
+  .service_desc {
+    margin: 1rem 0;
+  }
+  .service_desc2 {
+    margin: 1rem 0;
+  }
+  .service_left > div {
+    margin-top: 2rem;
+  }
+}
+
+@media (max-width: 557px) {
+  .services {
+    padding: 0 1rem;
+    height: 55rem;
+  }
+  .home_right > img {
+    width: 95vw;
+  }
+  .home_right {
+    margin-top: 2rem;
+  }
+  .service_title {
+    font-size: 1.95rem;
+    width: 100%;
+  }
+  .about_btn {
+    width: 6rem;
+    height: 3rem;
+    font-size: 0.85rem;
+  }
+}
+@media (max-width: 400px) {
+  .home_right > img {
+    width: 97vw;
+  }
+  .services {
+    height: 50rem;
+  }
+}
