@@ -5,16 +5,18 @@
   background-position: bottom;
   padding: 0 2rem;
   display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
 .service_title {
-  border: 1px solid;
+  /* border: 1px solid; */
   font-size: 2rem;
   width: 26rem;
   color: #171347;
   padding: 2rem 0;
 }
 .service_left {
-  border: 1px solid;
+  /* border: 1px solid; */
 }
 .service_desc {
   padding-top: 1rem;
@@ -44,6 +46,56 @@
   background-color: #0033cc;
   color: white;
   margin: 1rem 0;
+  transition: 0.2s ease-in-out;
+}
+.about_btn:hover {
+  background-color: #002596;
+}
+.about_btn:active {
+  background-color: #0033cc;
+}
+.service_right {
+  width: 35rem;
+  height: 30rem;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+.service_right > div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.service_card {
+  border-bottom: 5px solid #0033cc;
+  width: 13rem;
+  height: 14rem;
+  margin: 1rem;
+  border-radius: 0.3rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  flex-direction: column;
+  box-shadow: 1px 1px 8px rgb(201, 201, 201);
+}
+.service_card > h3 {
+  width: 80%;
+  text-align: center;
+  color: #171347;
+}
+.icon_div {
+  background-color: #0033cc;
+  width: 40%;
+  height: 40%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 73% 27% 38% 62%/40% 43% 57% 60%;
+}
+.card_icon {
+  width: 40%;
+  height: 40%;
+  color: white;
 }
 
 @media (max-width: 979px) {
@@ -52,7 +104,7 @@
     height: 60rem;
     padding: 0 6rem;
   }
-  .home_right {
+  .service_right {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -96,10 +148,10 @@
     padding: 0 1rem;
     height: 55rem;
   }
-  .home_right > img {
+  .service_right > img {
     width: 95vw;
   }
-  .home_right {
+  .service_right {
     margin-top: 2rem;
   }
   .service_title {
@@ -113,7 +165,7 @@
   }
 }
 @media (max-width: 400px) {
-  .home_right > img {
+  .service_right > img {
     width: 97vw;
   }
   .services {

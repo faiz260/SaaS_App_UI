@@ -1,5 +1,10 @@
 import React from "react";
 import "./services.css";
+import { FiMonitor } from "react-icons/fi";
+import { HiPencilAlt } from "react-icons/hi";
+import { ReactComponent as Monitor } from "../../assets/monitor.svg";
+import { ReactComponent as Edit } from "../../assets/edit.svg";
+import { ReactComponent as Design } from "../../assets/web-design.svg";
 
 function Services() {
   return (
@@ -9,8 +14,8 @@ function Services() {
           Effective tools for busy Administrators
         </h1>
         <p className="service_desc">
-          Mombo is a HTML5 template based on Sass and Bootstrap 4 with modern
-          and creative multipurpose design you can use it as a startups.
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
+          eiusmod tempor incididunt ut labore et dolore magna aliqua.
         </p>
         <p className="service_desc2">
           Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
@@ -21,7 +26,30 @@ function Services() {
           <button className="about_btn">More About</button>
         </div>
       </div>
-      <div className="home_right"></div>
+      <div className="service_right">
+        <span>
+          <div className="service_card">
+            <div className="icon_div">
+              <Monitor className="card_icon" />
+            </div>
+            <h3>Web Development</h3>
+          </div>
+          <div className="service_card">
+            <div className="icon_div">
+              <Edit className="card_icon" />
+            </div>
+            <h3>Logo & Identity</h3>
+          </div>
+        </span>
+        <div>
+          <div className="service_card">
+            <div className="icon_div">
+              <Design className="card_icon" />
+            </div>
+            <h3>Graphics Design</h3>
+          </div>
+        </div>
+      </div>
     </div>
   );
 }

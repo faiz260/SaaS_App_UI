@@ -7,8 +7,8 @@ function Home() {
       <div className="home_left">
         <h1 className="title">Our Analysis is your financial results</h1>
         <p className="desc">
-          Mombo is a HTML5 template based on Sass and Bootstrap 4 with modern
-          and creative multipurpose design you can use it as a startups.
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
+          eiusmod tempor incididunt ut labore et dolore magna aliqua.
         </p>
         <div>
           <button className="btn_1">Start now</button>
