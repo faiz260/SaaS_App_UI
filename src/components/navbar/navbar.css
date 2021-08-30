@@ -19,12 +19,14 @@
   align-items: center;
   justify-content: space-around;
   color: white;
-  /* border: 1px solid; */
 }
 .links > a {
   color: white;
   text-decoration: none;
   font-size: 0.8rem;
+}
+.links > a:hover{
+  color: rgb(186, 186, 186);
 }
 .btn {
   background-color: #15db95;
