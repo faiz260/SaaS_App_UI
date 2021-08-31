@@ -1,0 +1,38 @@
+.tab {
+  /* border: 1px solid; */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.tab > span {
+  width: 99%;
+  border: 1px solid;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.tabLink {
+  border: 1px solid;
+  margin: 1rem;
+  width: 12rem;
+  height: 7rem;
+  cursor: pointer;
+  background-color: white;
+  border: none;
+  color: #171347;
+  /* transition: 0.5s ease-in-out; */
+}
+.tabLink > p {
+  font-size: 1.2rem;
+}
+.tabContent {
+  height: 35rem;
+  border: 1px solid red;
+  width: 100%;
+}
+.tab_icon{
+    width: 3rem;
+    height: 3rem;
+    margin-bottom: 1rem;
+}
