@@ -1,0 +1,62 @@
+.plan_card {
+  border: 0.1px solid #7180964d;
+  width: 30%;
+  border-radius: 0.5rem;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  box-shadow: 0px 3px 10px 0px rgb(38 59 94 / 10%);
+  transition: ease all 0.35s;
+  margin: 1rem ;
+}
+.card_title {
+  margin: 0.5rem 0;
+  color: #171347;
+  margin-top: 3rem;
+}
+.card_tagline {
+  margin: 0.5rem 0;
+  color: #718096;
+}
+.card_img {
+  width: 8rem;
+  height: 6rem;
+}
+.card_price {
+  margin: 0.5rem 0;
+  border-bottom: 1px solid #7180964d;
+  width: 80%;
+  text-align: center;
+  padding-bottom: 2rem;
+  color: #171347;
+}
+.card_desc {
+  width: 66%;
+  height: 30%;
+  text-align: center;
+  line-height: 2.5rem;
+  margin: 1rem 0;
+  color: #718096;
+}
+.card_button {
+  color: white;
+  background-color: hsl(225deg 100% 40%);
+  border-color: hsl(225deg 100% 40%);
+  font-weight: 500;
+  line-height: 1.5;
+  text-align: center;
+  vertical-align: middle;
+  cursor: pointer;
+  border: 1px solid hsl(0deg 0% 0% / 0%);
+  padding: 0.65rem 1.25rem;
+  font-size: 1rem;
+  border-radius: 0.25rem;
+  transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out,
+    border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+  margin: 1.5rem 0;
+}
+@media(max-width: 878px){
+    .plan_card{
+        width: 80%;
+    }
+}

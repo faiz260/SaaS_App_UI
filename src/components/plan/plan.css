@@ -1,0 +1,15 @@
+.plan {
+  padding: 1rem;
+}
+.plan_cards_div {
+  margin-top: 3rem;
+  padding: 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+@media(max-width: 878px){
+    .plan_cards_div{
+        flex-direction: column;
+    }
+}

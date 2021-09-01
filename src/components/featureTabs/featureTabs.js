@@ -6,6 +6,13 @@ import MyTabContent from "./tabContent";
 function FeatureTabs() {
   return (
     <div>
+      <div className="feature_header">
+        <h1 className="feature_title">How do we create amazing products</h1>
+        <p className="feature_desc">
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
+          eiusmod tempor incididunt ut labore et dolore magna aliqua.
+        </p>
+      </div>
       <Tabs
         className="tab"
         activeLinkStyle={{ borderBottom: "1px solid #0033cc" }}
