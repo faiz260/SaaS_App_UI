@@ -1,5 +1,4 @@
 .tab {
-  /* border: 1px solid; */
   display: flex;
   align-items: center;
   justify-content: center;
@@ -7,13 +6,12 @@
 }
 .tab > span {
   width: 99%;
-  border: 1px solid;
   display: flex;
   align-items: center;
   justify-content: space-evenly;
+  border-bottom: 0.5px solid rgb(214, 214, 214);
 }
 .tabLink {
-  border: 1px solid;
   margin: 1rem;
   width: 12rem;
   height: 7rem;
@@ -21,18 +19,34 @@
   background-color: white;
   border: none;
   color: #171347;
-  /* transition: 0.5s ease-in-out; */
 }
 .tabLink > p {
   font-size: 1.2rem;
 }
 .tabContent {
-  height: 35rem;
-  border: 1px solid red;
   width: 100%;
 }
-.tab_icon{
-    width: 3rem;
-    height: 3rem;
-    margin-bottom: 1rem;
+.tab_icon {
+  width: 3rem;
+  height: 3rem;
+  margin-bottom: 1rem;
+}
+@media (max-width: 750px) {
+  .tab > span:first-child {
+    width: 90%;
+  }
+  .tabLink > p {
+    display: none;
+  }
+  .tabLink {
+    width: 10rem;
+    height: 5rem;
+    margin: 0;
+  }
+}
+@media (max-width: 550px) {
+  .tab_icon {
+    width: 2rem;
+    height: 2rem;
+  }
 }

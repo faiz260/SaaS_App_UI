@@ -8,7 +8,7 @@ function FeatureTabs() {
     <div>
       <Tabs
         className="tab"
-        activeLinkStyle={{ color: "#0033cc", borderBottom: "1px solid" }}
+        activeLinkStyle={{ borderBottom: "1px solid #0033cc" }}
       >
         <span>
           <TabLink to="tab1" className="tabLink">
@@ -47,16 +47,16 @@ function FeatureTabs() {
         </span>
         <span>
           <TabContent for="tab1" className="tabContent">
-            <MyTabContent />
+            <MyTabContent img="/images/discuss.png" />
           </TabContent>
           <TabContent for="tab2" className="tabContent">
-            /* content for tab #2 */
+            <MyTabContent img="/images/creative.png" />
           </TabContent>
           <TabContent for="tab3" className="tabContent">
-            /* content for tab #3 */
+            <MyTabContent img="/images/production.png" />
           </TabContent>
           <TabContent for="tab4" className="tabContent">
-            /* content for tab #4 */
+            <MyTabContent img="/images/client.png" />
           </TabContent>
         </span>
       </Tabs>

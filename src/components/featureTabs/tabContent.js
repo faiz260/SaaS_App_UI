@@ -1,10 +1,12 @@
 import React from "react";
 import "./tabContent.css";
 
-function TabContent() {
+function TabContent({img}) {
   return (
     <div className="tab_content">
-      <div className="tab_left"></div>
+      <div className="tab_left">
+        <img src={img} alt="tab_pic" />
+      </div>
       <div className="tab_right">
         <h1>
           Welcome to Mombo <span> Digital Marketing </span>
