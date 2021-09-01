@@ -17,7 +17,11 @@ function Services() {
         </div>
         <div className="about_right">
           <div className="about_card">
-            <img src="/images/crypto-creation.png" className="card_icon_2" />
+            <img
+              src="/images/crypto-creation.png"
+              alt="card-icon"
+              className="card_icon_2"
+            />
             <h5>Awesome Theme</h5>
             <p>
               Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
@@ -25,7 +29,11 @@ function Services() {
             </p>
           </div>
           <div className="about_card">
-            <img src="/images/growth-graph.png" className="card_icon_2" />
+            <img
+              src="/images/growth-graph.png"
+              alt="card-icon"
+              className="card_icon_2"
+            />
             <h5>Highly Scalable</h5>
             <p>
               Momboo is a HTML5 template based on Sass and Bootstrap 4 with
@@ -33,7 +41,11 @@ function Services() {
             </p>
           </div>
           <div className="about_card">
-            <img src="/images/responsive-device.png" className="card_icon_2" />
+            <img
+              src="/images/responsive-device.png"
+              alt="card-icon"
+              className="card_icon_2"
+            />
             <h5>Responsive layout</h5>
             <p>
               Momboo is a HTML5 template based on Sass and Bootstrap 4 with

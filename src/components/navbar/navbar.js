@@ -6,11 +6,11 @@ function Navbar() {
     <div className="navbar">
       <h1 className="logo">Title</h1>
       <span className="links">
-        <a href="#">Home</a>
-        <a href="#">About</a>
-        <a href="#">Feature</a>
-        <a href="#">Price</a>
-        <a href="#">Team</a>
+        <a href="/home">Home</a>
+        <a href="/about">About</a>
+        <a href="/feature">Feature</a>
+        <a href="/price">Price</a>
+        <a href="/team">Team</a>
       </span>
       <button className="btn">Sign up</button>
     </div>

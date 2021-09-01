@@ -1,7 +1,5 @@
 import React from "react";
 import "./services.css";
-import { FiMonitor } from "react-icons/fi";
-import { HiPencilAlt } from "react-icons/hi";
 import { ReactComponent as Monitor } from "../../assets/monitor.svg";
 import { ReactComponent as Edit } from "../../assets/edit.svg";
 import { ReactComponent as Design } from "../../assets/web-design.svg";
