@@ -72,4 +72,8 @@
   .tab_left > img {
     margin: 2rem 0;
   }
+  .tab_right > h1 {
+    width: 100%;
+    font-size: 1.8rem;
+  }
 }

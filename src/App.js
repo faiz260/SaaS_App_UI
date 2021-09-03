@@ -6,6 +6,7 @@ import About from "./components/about/about";
 import FeatureTabs from "./components/featureTabs/featureTabs";
 import Plan from "./components/plan/plan";
 import Team from "./components/team/team";
+import Footer from "./components/footer/footer";
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
       <FeatureTabs />
       <Plan />
       <Team />
+      <Footer />
     </div>
   );
 }

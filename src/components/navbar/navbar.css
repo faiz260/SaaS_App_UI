@@ -25,21 +25,29 @@
   text-decoration: none;
   font-size: 0.8rem;
 }
-.links > a:hover{
+.links > a:hover {
   color: rgb(186, 186, 186);
 }
 .btn {
-  background-color: #15db95;
+  background-color: white;
   border: 0.1px solid;
-  border-color: #15db95;
+  border-color: white;
   width: 7rem;
   height: 3rem;
   border-radius: 0.3rem;
-  color: white;
+  color: #0033cc;
   cursor: pointer;
 }
 .btn:hover {
-  background-color: #0db87c;
+  background-color: #0033cc;
+  border: 0.1px solid #0033cc;
+  box-shadow: 1px 1px 10px rgb(155, 155, 155);
+  color: white;
+}
+.btn:active {
+  background-color: white;
+  border: 0.1px solid white;
+  color: #0033cc;
 }
 
 @media (max-width: 979px) {
@@ -66,7 +74,7 @@
   .logo {
     font-size: 1.95rem;
   }
-  .btn{
+  .btn {
     width: 6rem;
     font-size: 0.85rem;
   }
