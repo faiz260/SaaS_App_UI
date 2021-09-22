@@ -13,7 +13,7 @@ function TabContent({ img }) {
       <Fade right>
         <div className="tab_right">
           <h1>
-            Welcome to Mombo <span> Digital Marketing </span>
+            Welcome to Title <span> Digital Marketing </span>
           </h1>
           <p>
             Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do

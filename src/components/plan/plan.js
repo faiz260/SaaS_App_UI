@@ -5,7 +5,7 @@ import Fade from "react-reveal/Fade";
 
 function Plan() {
   return (
-    <div className="plan">
+    <div className="plan" id="price">
       <Fade bottom>
         <div className="feature_header">
           <h1 className="feature_title">How do we create amazing products</h1>

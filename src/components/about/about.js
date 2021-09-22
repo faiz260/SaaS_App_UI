@@ -6,7 +6,7 @@ import Fade from "react-reveal/Fade";
 function Services() {
   return (
     <span>
-      <div className="about">
+      <div className="about" id="about">
         <div className="about_left">
           <Fade bottom>
             <h1 className="about_title">

@@ -4,7 +4,7 @@ import "./home.css";
 
 function Home() {
   return (
-    <div className="home">
+    <div className="home" id="home">
       <Fade>
         <div className="home_left">
           <h1 className="title">Our Analysis is your financial results</h1>

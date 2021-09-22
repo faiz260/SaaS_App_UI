@@ -6,7 +6,7 @@ import Fade from "react-reveal/Fade";
 
 function FeatureTabs() {
   return (
-    <div>
+    <div id="features">
       <Fade>
         <div className="feature_header">
           <h1 className="feature_title">How do we create amazing products</h1>
@@ -20,7 +20,7 @@ function FeatureTabs() {
         className="tab"
         activeLinkStyle={{ borderBottom: "1px solid #0033cc" }}
       >
-        <span>
+        <span className="tab_links">
           <Fade>
             <TabLink to="tab1" className="tabLink">
               <img

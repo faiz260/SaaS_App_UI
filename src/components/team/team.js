@@ -5,7 +5,7 @@ import Fade from "react-reveal/Fade";
 
 function Team() {
   return (
-    <div className="team">
+    <div className="team" id="team">
       <Fade bottom>
         <div className="feature_header">
           <h1 className="feature_title">Our amazing team</h1>

@@ -14,11 +14,12 @@
   color: white;
 }
 .links {
-  width: 40%;
+  width: 60%;
   display: flex;
   align-items: center;
   justify-content: space-around;
   color: white;
+  /* border: 1px solid; */
 }
 .links > a {
   color: white;
@@ -63,6 +64,9 @@
     font-size: 2.5rem;
   }
   .links {
+    display: none;
+  }
+  .btn {
     display: none;
   }
 }
