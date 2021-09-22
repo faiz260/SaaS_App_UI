@@ -87,7 +87,7 @@ export default function TemporaryDrawer() {
           "Team",
           "Sign Up",
         ].map((text, index) => (
-          <a to={`/${text}`} className={classes.drawer_link}>
+          <a href={`/${text}`} className={classes.drawer_link}>
             <ListItem button key={text}>
               <ListItemText primary={text} />
             </ListItem>
