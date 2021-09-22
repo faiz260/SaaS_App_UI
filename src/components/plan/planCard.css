@@ -60,3 +60,8 @@
         width: 80%;
     }
 }
+@media(max-width: 500px){
+  .plan_card{
+      width: 90%;
+  }
+}
